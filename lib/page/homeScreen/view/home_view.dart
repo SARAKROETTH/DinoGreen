@@ -1,4 +1,5 @@
 
+import 'package:dinogreenv1/page/homeScreen/view/widgets/search_bar_widget.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -6,8 +7,18 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-
+    return Scaffold(
+      body:SafeArea(
+        child: SingleChildScrollView(
+          child: Column(
+            children: [
+              SearchBarWidget(),
+            ],
+          ),
+        ),
+      )
     );
   }
 }
+
+

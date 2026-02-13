@@ -21,6 +21,7 @@ class LoginView extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
+            Spacer(),
             SizedBox(height: 50,),
             SizedBox(
               width: 80,
@@ -143,10 +144,10 @@ class LoginView extends StatelessWidget {
                       },
                     ),
                   ]
-
                 )),
               ),
-            )
+            ),
+            Spacer()
 
 
           ],
